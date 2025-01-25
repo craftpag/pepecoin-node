@@ -1,4 +1,4 @@
-```markdown
+
 # Pepecoin Full Node Docker Image
 
 A Docker container for running a Pepecoin node, helping secure and decentralize the network. The image pulls and compiles Pepecoin Core directly from the official [pepecoinppc/pepecoin](https://github.com/pepecoinppc/pepecoin) GitHub repository.
@@ -36,4 +36,3 @@ Ports:
 - Compiled from source with all dependencies
 - Automatic network synchronization
 - Data persistence through Docker volumes
-```
