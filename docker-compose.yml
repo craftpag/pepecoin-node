@@ -1,0 +1,9 @@
+version: "3"
+services:
+  pepecoin:
+    build: .
+    ports:
+      - "33874:33874"
+      - "33873:33873"
+    volumes:
+      - ./pepecoin-data:/root/.pepecoin
